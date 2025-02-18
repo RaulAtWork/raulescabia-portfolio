@@ -1,0 +1,14 @@
+
+.container {
+    max-width: 920px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  
+    padding: 20px;
+  
+    background-color: hsla(0, 0%, 0%, 0.4);
+    backdrop-filter: blur(10px);
+  }
