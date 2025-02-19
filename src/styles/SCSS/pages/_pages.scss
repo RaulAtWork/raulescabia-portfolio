@@ -1,0 +1,27 @@
+/* INTRODUCTION */
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  gap: var(--separation-xxl);
+}
+
+.intro-links {
+  display: flex;
+  flex-direction: row;
+
+  gap: var(--separation-s);
+  margin-top: auto;
+
+  align-items: center;
+}
+
+.intro-name{
+    padding-top: var(--separation-xl);
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

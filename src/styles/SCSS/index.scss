@@ -1,16 +1,27 @@
 // ABSTRACTS
+@use "./abstracts/fonts";
+@use "./abstracts/variables";
 
 // BASE
 
-@use "./base/base.scss";
+@use "./base/base";
+@use "./base/margin_padding";
+@use "./base/text";
+@use "./base/buttons";
 
 // COMPONENTS
 
+@use "./components/icon";
+
 // LAYOUT
 
+@use "./layout/layout";
 @use "./layout/container.scss";
 
 // PAGES
 
+@use "./pages/pages";
+
 // THEMES
 
+@use "./themes/themes";

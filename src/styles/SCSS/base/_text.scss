@@ -1,0 +1,20 @@
+.text-primary-color{
+    color: var(--primary-color-500);
+}
+.text-accent-color{
+    color: var(--accent-color-500);
+}
+
+@mixin text-secondary{
+    font-size:  var(--text-s);
+    color: var(--dark-shade-700);
+}
+
+.text-secondary{
+    @include text-secondary;
+}
+
+
+
+
+

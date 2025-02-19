@@ -1,0 +1,23 @@
+  @use "../abstracts/variables" as *;
+  
+  // Define the separation sizes in a Sass map
+  $separations: (
+    xxs: var(--separation-xxs),
+    xs: var(--separation-xs),
+    s: var(--separation-s),
+    m: var(--separation-m),
+    l: var(--separation-l),
+    xl: var(--separation-xl),
+    xxl: var(--separation-xxl)
+  );
+  
+  // Generate margin and padding classes
+  @each $key, $value in $separations {
+    .margin-#{$key} {
+      margin: #{$value};
+    }
+    .padding-#{$key} {
+      padding: #{$value};
+    }
+  }
+  
