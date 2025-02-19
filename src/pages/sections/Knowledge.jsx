@@ -1,7 +1,7 @@
 function Knowledge() {
   return (
     <section>
-      <h1>KNOWLEDGE</h1>
+      <h1 className="text-center">KNOWLEDGE</h1>
       <ul>
         <li>
           Front-End

@@ -5,16 +5,19 @@
     color: var(--accent-color-500);
 }
 
-@mixin text-secondary{
+
+.text-secondary{
     font-size:  var(--text-s);
     color: var(--dark-shade-700);
 }
 
-.text-secondary{
-    @include text-secondary;
+.text-secondary-m{
+    color: var(--dark-shade-700);
 }
 
 
-
+.text-center{
+    text-align: center;
+}
 
 

@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <section>
-      <h1>EXPERIENCE</h1>
+      <h1 className="text-center">EXPERIENCE</h1>
       <ul>
         <li>
           <p>2020 - Present</p>

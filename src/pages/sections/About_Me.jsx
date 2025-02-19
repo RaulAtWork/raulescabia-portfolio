@@ -1,7 +1,7 @@
 function About_Me() {
   return (
-    <article>
-      <h1>About Me</h1>
+    <section>
+      <h1 className="text-center">About Me</h1>
       <h2>Work Related</h2>
       <p>
         Personal projects to boost my productivity Or Libraries that will make
@@ -17,7 +17,7 @@ function About_Me() {
         free time. I have none publish yet but hopefully will publish the one I
         have been working for 2 year at the end of 2025
       </p>
-    </article>
+    </section>
   );
 }
 

@@ -45,7 +45,8 @@ h6 {
 
 h1 {
   letter-spacing: 0.05em;
-  margin-top: var(--separation-m);
+  margin-top: var(--separation-xl);
+  margin-bottom: var(--separation-s);
   font-size: 2rem;
 }
 
@@ -128,6 +129,14 @@ a, button {
   color: var(--dark-shade-700);
 }
 
+.text-secondary-m {
+  color: var(--dark-shade-700);
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* Shared Code for all buttons*/
 .button-primary, .button-outline,
 .button-secondary, .button-tertiary {
@@ -174,6 +183,18 @@ a, button {
   font-size: 40px;
 }
 
+.icon {
+  font-size: 26px;
+}
+
+.label {
+  border: 5px var(--dark-shade-300) solid;
+  border-radius: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -213,13 +234,49 @@ a, button {
 }
 
 .intro-name {
-  padding-top: var(--separation-xl);
+  /* padding-top: var(--separation-xl);*/
 }
 
 .intro-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* PROJECTS */
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: auto;
+}
+
+.projects-card, .projects-card > img {
+  border-radius: 5px 5px 0 0;
+}
+
+.projects-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(30, 30, 30);
+}
+.projects-card p, .projects-card h2 {
+  text-align: center;
+}
+
+.projects-card-inner {
+  padding: var(--separation-s);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.projects-cards-techs {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 /* DARK THEME */

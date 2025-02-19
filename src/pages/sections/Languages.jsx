@@ -1,7 +1,7 @@
 function Languages(){
     return(
         <section>
-            <h1>LANGUAGES</h1>
+            <h1 className="text-center">LANGUAGES</h1>
             <ul>
                 <li>Spanish - Native</li>
                 <li>English - Fluent</li>
