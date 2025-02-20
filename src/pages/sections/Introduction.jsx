@@ -7,15 +7,15 @@ function Introduction() {
       <img src="/img/raul_200x200.jpg" />
       <div className="intro-container">
         <h1 className="intro-name">
-          <span className="text-secondary">{"<h1> "}</span>Raúl Escabia
-          <span className="text-secondary">{" </h1>"}</span>
+          <span className="text-secondary-s">{"<h1> "}</span>Raúl Escabia
+          <span className="text-secondary-s">{" </h1>"}</span>
         </h1>
         <p>
-          <span className="text-secondary">{"<p> "}</span>
+          <span className="text-secondary-s">{"<p> "}</span>
           <b className="text-primary-color">Senior Full-Stack </b>
           web developer who{" "}
           <b className="text-accent-color">specializes in Front-End</b>
-          <span className="text-secondary">{" </p>"}</span>
+          <span className="text-secondary-s">{" </p>"}</span>
         </p>
         <div className="intro-links">
           <a href="https://www.linkedin.com/in/raúl-escabia-martínez-5a0013188" target="_blank">

@@ -1,0 +1,23 @@
+.timeline {
+    position: relative;
+    margin: 20px 19px;
+    padding-top: var(--separation-xs);
+    border-left: 2px solid var(--dark-shade-600); /* Vertical line */
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: var(--separation-m);
+    margin-left: var(--separation-m)
+  }
+  
+  .timeline-marker {
+    position: absolute;
+    left: -25px; /* Align marker with the vertical line */
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--dark-shade-600); /* Green marker */
+    border-radius: 50%; /* Make it a circle */
+    box-shadow: 0 0 0 4px black; /* Fade it on the time line */
+  }

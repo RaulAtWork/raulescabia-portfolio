@@ -10,7 +10,7 @@
   --separation-l: 24px;
   --separation-xl: 32px;
   --separation-xxl: 48px;
-  --text-s: 12px;
+  --text-s: 13px;
   --text-m: 16px;
   --padding-button: 6px;
 }
@@ -51,7 +51,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  margin-top: var(--separation-s);
+  /*margin-top: var(--separation-s);*/
   letter-spacing: -0.05em;
 }
 
@@ -124,13 +124,13 @@ a, button {
   color: var(--accent-color-500);
 }
 
-.text-secondary {
+.text-secondary-s {
   font-size: var(--text-s);
   color: var(--dark-shade-700);
 }
 
-.text-secondary-m {
-  color: var(--dark-shade-700);
+.text-secondary {
+  color: var(--dark-shade-500);
 }
 
 .text-center {
@@ -221,6 +221,30 @@ SASS #c25990
 
 
 */
+.timeline {
+  position: relative;
+  margin: 20px 19px;
+  padding-top: var(--separation-xs);
+  border-left: 2px solid var(--dark-shade-600); /* Vertical line */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--separation-m);
+  margin-left: var(--separation-m);
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -25px; /* Align marker with the vertical line */
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--dark-shade-600); /* Green marker */
+  border-radius: 50%; /* Make it a circle */
+  box-shadow: 0 0 0 4px black; /* Fade it on the time line */
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -319,6 +343,6 @@ SASS #c25990
   --dark-shade-300: hsl(214, 23%, 88%);
   --dark-shade-200: hsl(214, 22%, 90%);
   --dark-shade-100: hsl(214, 16%, 97%);
-  --primary-color-500: hsl(272, 98%, 32%);
+  --primary-color-500: #8134DF;
   --accent-color-500: hsl(155, 53%, 44%);
 }

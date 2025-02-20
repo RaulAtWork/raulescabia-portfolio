@@ -9,7 +9,7 @@ function Projects() {
           <img src="https://placehold.co/250x150" />
           <div className="projects-card-inner">
             <h2>Chroma Shift</h2>
-            <p className="text-secondary-m">
+            <p className="text-secondary">
               Package availabel on npm that provides tools to change color scheme.
             </p>
             <div className="projects-cards-techs">
@@ -23,7 +23,7 @@ function Projects() {
           <img src="https://placehold.co/250x150" />
           <div className="projects-card-inner">
             <h2>Oasis UI</h2>
-            <p className="text-secondary-m">
+            <p className="text-secondary">
               Compilation of React components and UI/UX techniques.
             </p>
             <div className="projects-cards-techs">
@@ -35,7 +35,7 @@ function Projects() {
           <img src="https://placehold.co/250x150" />
           <div className="projects-card-inner">
             <h2>Lock-a-Note</h2>
-            <p className="text-secondary-m">Visual organization and note-taking tool.</p>
+            <p className="text-secondary">Visual organization and note-taking tool.</p>
             <div className="projects-cards-techs">
               <Label type={LABEL.REACT} />
               <Label type={LABEL.JS} />
