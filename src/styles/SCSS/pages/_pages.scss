@@ -83,7 +83,33 @@
   gap: var(--separation-s);
 }
 
-.projects-cards-links{
-    display: flex;
-    justify-content: space-around;
+.projects-cards-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* SKILLS */
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.skill-left, .skill-right{
+    min-height: 100px;
+}
+.skill-left {
+  text-align: right;
+  margin-right: var(--separation-m);
+}
+
+.skill-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--separation-s);
+}
+
+.skill-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }

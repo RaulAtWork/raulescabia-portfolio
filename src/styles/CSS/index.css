@@ -55,6 +55,14 @@ h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
 }
 
+section {
+  margin-bottom: 70px;
+}
+
+p {
+  line-height: 1.2;
+}
+
 /* ANCHORS & BUTTONS */
 a, button {
   cursor: pointer;
@@ -194,9 +202,10 @@ a, button {
 .label {
   display: flex;
   /*border: 5px var(--dark-shade-300) solid;
-  border-radius: 15px;*/
-  width: -moz-fit-content;
-  width: fit-content;
+    border-radius: 15px;*/
+  flex-direction: column;
+  align-items: center;
+  width: 58px;
   padding: 2px;
 }
 
@@ -214,6 +223,38 @@ a, button {
 
 .label-sass {
   color: #c25990;
+}
+
+.label-html {
+  color: #df4b25;
+}
+
+.label-css {
+  color: #0079c7;
+}
+
+.label-git {
+  color: #eb5032;
+}
+
+.label-nodejs {
+  color: #80bd03;
+}
+
+.label-vite {
+  color: #fbce27;
+}
+
+.label-pega {
+  color: #00a2a4;
+}
+
+.label-postgre {
+  color: #32648e;
+}
+
+.label-vscode {
+  color: #028acf;
 }
 
 /* COLORS OF TECHS
@@ -351,6 +392,32 @@ SASS #c25990
 .projects-cards-links {
   display: flex;
   justify-content: space-around;
+}
+
+/* SKILLS */
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skill-left, .skill-right {
+  min-height: 100px;
+}
+
+.skill-left {
+  text-align: right;
+  margin-right: var(--separation-m);
+}
+
+.skill-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--separation-s);
+}
+
+.skill-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 /* DARK THEME */

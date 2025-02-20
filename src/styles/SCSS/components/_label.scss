@@ -1,23 +1,55 @@
-.label{
-    display: flex;
-    /*border: 5px var(--dark-shade-300) solid;
+.label {
+  display: flex;
+  /*border: 5px var(--dark-shade-300) solid;
     border-radius: 15px;*/
-    width: fit-content;
-    padding: 2px;
-    
+
+  flex-direction: column;
+  align-items: center;
+  width: 58px;
+  padding: 2px;
 }
 
-.label-js{
-    color: #f1d91d
+.label-js {
+  color: #f1d91d;
 }
-.label-react{
-    color: #00d7f8
+.label-react {
+  color: #00d7f8;
 }
-.label-npm{
-    color: #c93639
+.label-npm {
+  color: #c93639;
 }
-.label-sass{
-    color: #c25990
+.label-sass {
+  color: #c25990;
+}
+.label-html {
+  color: #df4b25;
+}
+.label-css {
+  color: #0079c7;
+}
+
+.label-git {
+  color: #eb5032;
+}
+
+.label-nodejs {
+  color: #80bd03;
+}
+
+.label-vite {
+  color: #fbce27;
+}
+
+.label-pega {
+  color: #00a2a4;
+}
+
+.label-postgre {
+  color: #32648e;
+}
+
+.label-vscode {
+  color: #028acf;
 }
 
 /* COLORS OF TECHS
