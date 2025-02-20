@@ -33,14 +33,17 @@ function Skills() {
         </div>
         <div className="skill-section">
           <h2 className="skill-left">Languages</h2>
-          <ul>
-            <li>🇪🇸 Spanish - Native</li>
-            <li>🇬🇧 English - Fluent</li>
-            <li>
-              🇯🇵 Japanese - Beginner
+          <div className="skill-languages">
+            <span>🇪🇸 Spanish </span>
+            <span className="text-secondary">Native</span>
+            <span>🇬🇧 English </span>
+            <span className="text-secondary">Fluent</span>
+            <span>🇯🇵 Japanese </span>
+            <span className="text-secondary">
+              Beginner
               <span className="text-secondary-s"> (currently studying)</span>
-            </li>
-          </ul>
+            </span>
+          </div>
         </div>
       </div>
     </section>

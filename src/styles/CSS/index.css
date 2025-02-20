@@ -68,6 +68,10 @@ a, button {
   cursor: pointer;
 }
 
+a:hover {
+  color: var(--dark-shade-400);
+}
+
 .margin-xxs {
   margin: var(--separation-xxs);
 }
@@ -132,6 +136,10 @@ a, button {
   color: var(--accent-color-500);
 }
 
+.text-l {
+  font-size: 1.2rem;
+}
+
 .text-secondary-s {
   font-size: var(--text-s);
   color: var(--dark-shade-700);
@@ -179,12 +187,12 @@ a, button {
 /* Secondary button, filled with darken background,
  lighter shade when hovered*/
 .button-secondary {
-  background-color: var(--dark-shade-700);
+  background-color: var(--accent-color-600);
   color: white;
 }
 
 .button-secondary:hover {
-  background-color: var(--dark-shade-500);
+  background-color: var(--accent-color-700);
 }
 
 .icon-l {
@@ -420,6 +428,12 @@ SASS #c25990
   grid-template-columns: 1fr 2fr;
 }
 
+.skill-languages {
+  display: grid;
+  grid-template-columns: 12ch 1fr;
+  margin-top: 10px;
+}
+
 /* DARK THEME */
 :root {
   --text-color: white;
@@ -432,6 +446,8 @@ SASS #c25990
   --dark-shade-300: hsl(214, 23%, 88%);
   --dark-shade-200: hsl(214, 22%, 90%);
   --dark-shade-100: hsl(214, 16%, 97%);
-  --primary-color-500: #8134DF;
-  --accent-color-500: hsl(155, 53%, 44%);
+  --primary-color-500: #C586C0;
+  --accent-color-700: hsl(168, 65%, 25%);
+  --accent-color-600: hsl(168, 55%, 35%);
+  --accent-color-500: hsl(168, 45%, 49%);
 }

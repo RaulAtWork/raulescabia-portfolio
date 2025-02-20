@@ -7,10 +7,9 @@ function TimeItem({ year, title, subtitle, children }) {
     <div className="timeline-item">
       <div className="timeline-marker" />
       <p className="text-secondary-s">{year}</p>
-      <h2>
-        {title}, <span className="text-primary-color">{subtitle}</span>
-      </h2>
-      <p className="text-secondary">{children}</p>
+      <h2>{title}</h2>
+      <span className="text-primary-color text-l">{subtitle}</span>
+      {children}
     </div>
   );
 }

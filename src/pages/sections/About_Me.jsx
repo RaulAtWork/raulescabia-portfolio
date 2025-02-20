@@ -8,7 +8,7 @@ function About_Me() {
         my design robust and quicker to program
       </p>
       <h2>Soft Skills</h2>
-      <p>Leadership, planning, teaching, fast learner.</p>
+      <p>Leadership, planning, teaching, fast learner, writing documentation.</p>
       <h2>Personal</h2>
       <p>
         Wrote a book, unfortunatelly it is only in Spanish. Play the piano.

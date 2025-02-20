@@ -61,3 +61,7 @@ p{
 a, button{
   cursor: pointer;
 }
+
+a:hover{
+  color: var(--dark-shade-400)
+}

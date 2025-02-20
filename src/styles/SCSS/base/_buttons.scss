@@ -31,9 +31,9 @@
 /* Secondary button, filled with darken background,
  lighter shade when hovered*/
 .button-secondary {
-    background-color: var(--dark-shade-700);
+    background-color: var(--accent-color-600);
     color: white;
 }
 .button-secondary:hover{
-    background-color: var(--dark-shade-500);
+    background-color: var(--accent-color-700);
 }
