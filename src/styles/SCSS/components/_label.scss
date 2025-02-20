@@ -1,6 +1,31 @@
 .label{
-    border: 5px var(--dark-shade-300) solid;
-    border-radius: 5px;
+    display: flex;
+    /*border: 5px var(--dark-shade-300) solid;
+    border-radius: 15px;*/
     width: fit-content;
     padding: 2px;
+    
 }
+
+.label-js{
+    color: #f1d91d
+}
+.label-react{
+    color: #00d7f8
+}
+.label-npm{
+    color: #c93639
+}
+.label-sass{
+    color: #c25990
+}
+
+/* COLORS OF TECHS
+
+js #f1d91d
+REACT #00d7f8
+NPM #c93639
+SASS #c25990
+
+
+*/

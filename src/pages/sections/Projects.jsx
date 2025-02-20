@@ -10,13 +10,13 @@ function Projects() {
           <div className="projects-card-inner">
             <h2>Chroma Shift</h2>
             <p className="text-secondary-m">
-              npm package that provides tools to change color scheme.
+              Package availabel on npm that provides tools to change color scheme.
             </p>
-            <p className="projects-cards-techs">
+            <div className="projects-cards-techs">
               <Label type={LABEL.NPM} />
               <Label type={LABEL.REACT} />
               <Label type={LABEL.JS} />
-            </p>
+            </div>
           </div>
         </div>
         <div className="projects-card">
@@ -26,15 +26,21 @@ function Projects() {
             <p className="text-secondary-m">
               Compilation of React components and UI/UX techniques.
             </p>
-            <p className="projects-cards-techs">react, SCSS</p>
+            <div className="projects-cards-techs">
+              <Label type={LABEL.REACT} /> <Label type={LABEL.JS} />
+            </div>
           </div>
         </div>
         <div className="projects-card">
           <img src="https://placehold.co/250x150" />
           <div className="projects-card-inner">
             <h2>Lock-a-Note</h2>
-            <p className="text-secondary-m">Brainmap</p>
-            <p className="projects-cards-techs">react, js, SCSS</p>
+            <p className="text-secondary-m">Visual organization and note-taking tool.</p>
+            <div className="projects-cards-techs">
+              <Label type={LABEL.REACT} />
+              <Label type={LABEL.JS} />
+              <Label type={LABEL.SASS} />
+            </div>
           </div>
         </div>
       </div>
