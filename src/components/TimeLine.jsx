@@ -2,13 +2,13 @@ function TimeLine({ children }) {
   return <div className="timeline">{children}</div>;
 }
 
-function TimeItem({ year, company, position, children }) {
+function TimeItem({ year, title, subtitle, children }) {
   return (
     <div className="timeline-item">
       <div className="timeline-marker" />
       <p className="text-secondary-s">{year}</p>
       <h2>
-        {company}, <span className="text-primary-color">{position}</span>
+        {title}, <span className="text-primary-color">{subtitle}</span>
       </h2>
       <p className="text-secondary">{children}</p>
     </div>

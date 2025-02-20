@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Introduction() {
   return (
     <section className="intro">
-      <img src="/img/raul_200x200.jpg" />
+      <img  className="intro-img" src="/img/raul_square_nobg.png" />
       <div className="intro-container">
         <h1 className="intro-name">
           <span className="text-secondary-s">{"<h1> "}</span>Raúl Escabia

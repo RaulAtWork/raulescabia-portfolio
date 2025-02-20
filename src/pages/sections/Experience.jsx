@@ -7,8 +7,8 @@ function Experience() {
       <TimeLine>
         <TimeItem
           year="2020 - Present"
-          company="Saltech Consulting"
-          position="Software Consultant"
+          title="Saltech Consulting"
+          subtitle="Software Consultant"
         >
           Developed and maintained a large-scale{" "}
           <span className="text-accent-color">
@@ -25,8 +25,8 @@ function Experience() {
         </TimeItem>
         <TimeItem
           year="2019 - 2020"
-          company="Tragsatech"
-          position="Full-Stack Developer"
+          title="Tragsatech"
+          subtitle="Full-Stack Developer"
         >
           Development of <b>LetraQ</b>, a <span className="text-accent-color">database system</span> for tracing milk quality
           across Spain in collaboration with the Ministry of Agriculture.
