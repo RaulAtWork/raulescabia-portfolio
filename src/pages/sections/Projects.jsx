@@ -22,7 +22,7 @@ function Projects() {
       <h1 className="text-center">PROJECTS</h1>
       <div className="projects-container">
         <div className="projects-card">
-          <img src="https://placehold.co/250x150" />
+          <img src="/img/chroma.png" />
           <div className="projects-card-inner">
             <h2>Chroma Shift</h2>
             <p className="text-secondary">
@@ -53,7 +53,7 @@ function Projects() {
           </div>
         </div>
         <div className="projects-card">
-          <img src="https://placehold.co/250x150" />
+          <img src="/img/oasis.png" />
           <div className="projects-card-inner">
             <h2>Oasis UI</h2>
             <p className="text-secondary">
@@ -81,7 +81,7 @@ function Projects() {
           </div>
         </div>
         <div className="projects-card">
-          <img src="https://placehold.co/250x150" />
+          <img src="/img/lock-note.png" />
           <div className="projects-card-inner">
             <h2>Lock-a-Note</h2>
             <p className="text-secondary">
