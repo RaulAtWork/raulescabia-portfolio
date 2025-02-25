@@ -59,6 +59,11 @@ section {
   margin-bottom: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  section {
+    margin-bottom: 30px;
+  }
+}
 p {
   line-height: 1.2;
 }
@@ -328,6 +333,21 @@ SASS #c25990
   gap: var(--separation-xxl);
 }
 
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-description {
+    text-align: center;
+  }
+}
+.intro-description {
+  white-space: normal; /* Ensure text can wrap */
+  word-break: normal; /* Default behavior for breaking words */
+  overflow-wrap: break-word; /* Allow breaking long words if necessary */
+}
+
 .intro-links {
   display: flex;
   flex-direction: row;
@@ -336,6 +356,11 @@ SASS #c25990
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .intro-links {
+    margin-top: var(--separation-m);
+  }
+}
 .intro-img {
   width: 200px;
   height: 200px;
@@ -360,6 +385,14 @@ SASS #c25990
   gap: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--separation-m);
+  }
+}
 .projects-card > img {
   width: 250px;
   height: 150px;
@@ -413,7 +446,13 @@ SASS #c25990
   grid-template-columns: 1fr 1fr;
 }
 
-.skill-left, .skill-right {
+@media screen and (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
+.skill-left,
+.skill-right {
   min-height: 100px;
 }
 

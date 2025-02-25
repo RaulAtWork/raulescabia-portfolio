@@ -4,21 +4,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Introduction() {
   return (
     <section className="intro">
-      <img  className="intro-img" src="/img/raul_square_nobg.png" />
+      <img className="intro-img" src="/img/raul_square_nobg.png" />
       <div className="intro-container">
         <h1 className="intro-name">
           <span className="text-secondary-s">{"<h1> "}</span>Raúl Escabia
           <span className="text-secondary-s">{" </h1>"}</span>
         </h1>
-        <p>
-          <span className="text-secondary-s">{"<p> "}</span>
-          <b className="text-primary-color">Senior Full-Stack </b>
-          web developer who{" "}
-          <b className="text-accent-color">specializes in Front-End</b>
-          <span className="text-secondary-s">{" </p>"}</span>
+        <p className="intro-description">
+          <span style={{ display: "inline-block" }}>
+            <span className="text-secondary-s">{"<p> "}</span>
+            <b className="text-primary-color">Senior Full-Stack </b>
+            web developer{" "}
+          </span>
+          <span style={{ display: "inline-block" }}>
+          &nbsp;who
+            <b className="text-accent-color"> specializes in Front-End</b>
+            <span className="text-secondary-s">{" </p>"}</span>
+          </span>
         </p>
+
         <div className="intro-links">
-          <a href="https://www.linkedin.com/in/raúl-escabia-martínez-5a0013188" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/raúl-escabia-martínez-5a0013188"
+            target="_blank"
+          >
             <FontAwesomeIcon className="icon-l" icon={faLinkedin} />
           </a>
           <a href="https://www.github.com/RaulAtWork" target="_blank">

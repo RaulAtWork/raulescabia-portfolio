@@ -24,7 +24,7 @@ function Projects() {
         <div className="projects-card">
           <img src="/img/chroma.png" />
           <div className="projects-card-inner">
-            <h2>Chroma Shift</h2>
+            <h2 className="text-accent-color">Chroma Shift</h2>
             <p className="text-secondary">
               Package available on npm that provides tools to change color
               scheme.
@@ -55,7 +55,7 @@ function Projects() {
         <div className="projects-card">
           <img src="/img/oasis.png" />
           <div className="projects-card-inner">
-            <h2>Oasis UI</h2>
+            <h2 className="text-accent-color">Oasis UI</h2>
             <p className="text-secondary">
               Compilation of React components and UI/UX techniques.
             </p>
@@ -83,7 +83,7 @@ function Projects() {
         <div className="projects-card">
           <img src="/img/lock-note.png" />
           <div className="projects-card-inner">
-            <h2>Lock-a-Note</h2>
+            <h2  className="text-accent-color">Lock-a-Note</h2>
             <p className="text-secondary">
               Visual organization and note-taking tool.
             </p>

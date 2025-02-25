@@ -3,3 +3,6 @@
 /* import scss compiled code after the reset*/
 
 @import "./styles/CSS/index.css";
+
+
+/* We consider small devices on width 768px*/
