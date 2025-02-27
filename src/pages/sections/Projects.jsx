@@ -13,6 +13,7 @@ const LINKS = {
   },
   LOCKNOTE: {
     code: "https://github.com/RaulAtWork/lock-a-note",
+    demo: "https://lock-a-note.netlify.app/"
   },
 };
 
